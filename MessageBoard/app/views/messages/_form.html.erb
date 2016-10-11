@@ -1,0 +1,7 @@
+<%= simple_form_for @message do|f| %>
+	<!-- inputfields -->
+	<%= f.input :title, label: "Message title" %>
+	<%= f.input :description %>
+	<!-- Submit button -->
+	<%= f.button :submit %>
+<% end %>
