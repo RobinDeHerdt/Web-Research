@@ -1,0 +1,6 @@
+<%= simple_form_for([@message, @message.comments.build]) do |f| %>
+	<!-- inputfields -->
+	<%= f.input :content, label: "Comment" %>
+	<!-- Submit button -->
+	<%= f.button :submit %>
+<% end %>

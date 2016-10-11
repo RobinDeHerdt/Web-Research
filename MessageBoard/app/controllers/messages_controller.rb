@@ -13,11 +13,11 @@ class MessagesController < ApplicationController
 
 	def new
 		# @message is an instance variable. This means @message is available to our view files.
-		@message = Message.new
+		@message = current_user.messages.build
 	end
 
 	def create
-		@message = Message.new(message_params)
+		@message = current_user.messages.build(message_params)
 
 		# If message was saved successfully, redirect
 		# If we don't do this, we get template error for create.html.erb, which does not exist
