@@ -2,6 +2,8 @@ class CommentsController < ApplicationController
 
 	before_action :find_message
 	before_action :find_comment, only: [:edit, :update, :destroy]
+	before_action :authenticate_user!
+	
 	def create
 		@comment = @message.comments.create(comment_params)
 		@comment.user_id = current_user.id

@@ -1,5 +1,6 @@
 class MessagesController < ApplicationController
 	before_action :find_message, only: [:show, :edit, :update, :destroy]
+	before_action :authenticate_user!, except: [:index, :show]
 	# The name of this action has to be the same as the view it links to.
 	# This view is called index.html.erb
 	def index
