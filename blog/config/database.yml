@@ -13,13 +13,13 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: blogadmin
+  username: root
   password: root
   host: localhost
 
 development:
   <<: *default
-  database: blog_development
+  database: rubyblog
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
