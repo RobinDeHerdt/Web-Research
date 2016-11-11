@@ -10,13 +10,14 @@ https://www.codecademy.com/
 https://www.codecademy.com/	  
 - 30/09/2016	Ruby symbols:  
 http://culttt.com/2015/04/22/what-are-symbols-in-ruby/	  
-- 01/10/2016	IDE/Text editor: https://www.sitepoint.com/ides-rubyists-use/	  
+- 01/10/2016	IDE/Text editor:   
+https://www.sitepoint.com/ides-rubyists-use/	    
 - 03/10/2016 	IDE/Text editor:   
 http://codecondo.com/top-5-ruby-ide-solutions-development-pleasure/  
 - 03/10/2016	Ruby on Rails on sublime:  
 https://mattbrictson.com/sublime-text-3-recommendations	  
 - 05/10/2016 	Ruby web servers:  
-https://www.digitalocean.com/community/tutorials/  a-comparison-of-rack-web-servers-for-ruby-web-applications  
+https://www.digitalocean.com/community/tutorials/a-comparison-of-rack-web-servers-for-ruby-web-applications  
 - 06/10/2016	Ruby on rails on windows:  
 http://railsinstaller.org/en   
 - 07/10/2016	Ruby on rails on ubuntu:  
