@@ -4,8 +4,7 @@ class MessagesController < ApplicationController
 	# The name of this action has to be the same as the view it links to.
 	# This view is called index.html.erb
 	def index
-		# Get all messages
-		@messages = Message.all.order("created_at DESC")
+		
 	end
 
 	def show
